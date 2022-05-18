@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: ; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 } 
 
 .container{
@@ -241,4 +241,71 @@ i.fa-solid.fa-share-nodes.fa-user.fa-folder.fa-check{
 .business-column1 h3{
     line-height: 30px;
     margin-bottom: 40px;
+}
+
+/* 500.000 */
+div.container.customers{
+    width: 60%;
+    margin: 70px auto;
+}
+.customers-txt h2{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+/* Advertising */
+.advertising{
+    background-color: beige;
+}
+.right-adv, .left-adv{
+    width: 30%;
+    height: 500px;
+    flex-flow: row wrap;
+}
+.adv{
+    width: 50%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+.mid-adv{
+    width: 50%;
+    padding: 64px;
+    display: block;
+}
+.mid-adv img{
+    height: 20%;
+    display: flex;
+}
+.designit-tct{
+    margin-bottom: 30px;
+}
+.adv img {
+    width: 40%;
+}
+div.designit-txt{
+    margin: 40px 0;
+}
+#designit{
+    background-color: rgb(137, 192, 137);
+}
+#arizona{
+    background-color: brown;
+}
+#florida{
+    background-color: rgb(19, 149, 201);
+}
+#topps{
+    background-color: red;
+}
+#wbr{
+    background-color: rgb(182, 81, 81);
+}
+#hearst{
+    background-color: rgb(188, 236, 232);
+}
+#lonely{
+    background-color: blue;
+}
+#clear{
+    background-color: yellow;
 }
