@@ -20,6 +20,10 @@ ul{
 }
 body::-webkit-scrollbar{
 }
+
+a{
+    color: blue;
+}
 /* nav li{
 
 } */
@@ -66,7 +70,9 @@ a{
     color: blue;
     font-size: 30px;
 }
-
+.upper{
+    margin-bottom: ;
+}
 
 /* main */
 /* prima sezione */
@@ -95,12 +101,72 @@ a{
     margin: 60px;
     
 }
-
+a.btn{
+    margin-left: 53px;
+}
 .upper-img img{
     width: 100%;
 }
 .fa-solid{
     font-size: xx-large;
 }
-/* seconda seione */
-
+/* seconda sezione */
+.mid-main-container{
+    width: 60%;
+    margin: 70px auto;
+}
+.main-reset{
+    padding: 150px 0;
+}
+.circle{
+    align-items: center;
+    margin: 50px 0;
+}
+.circle-btn{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.lcircle{
+    border: rgb(38, 100, 207) 2px solid;
+}
+.rcircle{
+    border: solid 1px grey;
+    margin-left: 100px;
+}
+.column{
+    justify-content: space-between;
+}
+.column1{
+    border: rgb(154, 151, 151) solid 1px;
+}
+.single{
+    text-align: center;
+    border-bottom: rgb(154, 151, 151) solid 1px;
+    padding: 10px 0;
+}
+.column-content{
+    padding: 20px;
+    line-height: 50px;
+}
+.price{
+    font-weight: bolder;
+}
+.btn-space{
+    width: 100%;
+    margin: 40px 0;
+}
+i.fa-solid.fa-share-nodes.fa-user.fa-folder.fa-check{
+    font-size: 10px;
+}
+.column-btn{
+    display: block;
+    text-align: center;
+}
+.space{
+    width: 30%;
+    border: rgb(154, 151, 151) solid 1px;
+    margin: 40px 0;
+}
+/* terza sezione */
