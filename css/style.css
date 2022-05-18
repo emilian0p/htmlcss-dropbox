@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: ; */
+    outline: 1px solid red;
 } 
 
 .container{
@@ -24,9 +25,7 @@ body::-webkit-scrollbar{
 a{
     color: blue;
 }
-/* nav li{
 
-} */
 a{
     text-decoration: none;
 }
@@ -75,7 +74,7 @@ a{
 }
 
 /* main */
-/* prima sezione */
+/* prima sezione prova gratuita */
 .top-main-container{
     background-color: rgb(18, 166, 192);
 }
@@ -110,7 +109,7 @@ a.btn{
 .fa-solid{
     font-size: xx-large;
 }
-/* seconda sezione */
+/* seconda sezione piano business */
 .mid-main-container{
     width: 60%;
     margin: 70px auto;
@@ -169,4 +168,77 @@ i.fa-solid.fa-share-nodes.fa-user.fa-folder.fa-check{
     border: rgb(154, 151, 151) solid 1px;
     margin: 40px 0;
 }
-/* terza sezione */
+/* terza sezione enterprise*/
+.mid-row-container{
+    margin-top: 50px;
+    border:  rgb(154, 151, 151) solid 1px;
+}
+.lrow{
+    width: 60%;
+}
+.row-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* quarta sezione partner */
+.partner{
+    align-items: center;
+    padding-top: 130px;
+}
+.partner-container{
+    width: 60%;
+    margin: 70px auto;
+    display: flex;
+}
+.partner-img{
+    flex-basis: 60%;
+}
+.partner-img img{
+    width: 100%;
+}
+.partner-btn{
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    flex-basis: 40%;
+}
+.partner-btn:hover{
+    color: white;
+    background-color: blue;
+}
+.partner-txt{
+    line-height: 30px;
+    width: 70%;
+    padding: 50px;
+}
+.partner-txt h3{
+    padding-bottom: 30px;
+}
+.fix-btn{
+    padding-top: 30px;
+}
+/* quinta sezione business */
+.business{
+    padding: 130px 0;
+    width: 60%;
+    margin: 70px auto;
+}
+.business-column{
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+}
+.business-column1{
+    flex-basis: 30%;
+    line-height: 30px;
+    flex: wrap;
+}
+.business-column1 img{
+    width: 100%;
+}
+.business-column1 h3{
+    line-height: 30px;
+    margin-bottom: 40px;
+}
