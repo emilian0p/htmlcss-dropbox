@@ -232,6 +232,7 @@ i.fa-solid.fa-share-nodes.fa-user.fa-folder.fa-check{
     flex: wrap;
 }
 .business-column1{
+    margin: 0 20px;
     flex-basis: 30%;
     line-height: 30px;
     flex: wrap;
